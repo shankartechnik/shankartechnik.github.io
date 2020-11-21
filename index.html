@@ -1,14 +1,31 @@
-<!DOCTYPE html>
 <html>
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title></title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
 </head>
-
 <body>
+<div class="container">
+<div class="left">
+<!-- randomizer area -->
+<div id="shuffle-sort-area">
+</div>
+<div class="author-name">
+Shuffle and sort by {{K R Gowrishankar}}
+</div>
+</div>
 
+<!-- optios to user -->
+<div class="right">
+<div id="button">
+<button id="shuffle" class="select-button" onclick="setOptions(true)">
+Shuffle
+</button>
+<button id="sort" class="select-button" onclick="setOptions(false)">
+Sort
+</button>
+</div>
+</div>
+</div>
+<script src="index.js"></script>
 </body>
-
 </html>
